@@ -1,0 +1,486 @@
+*{
+    margin: 0%;
+    font-family: Arial;
+    border: border-box;
+}
+
+
+body::-webkit-scrollbar{
+    color: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+
+    background: linear-gradient(red,green,blue);
+    border-radius: 20px;
+}
+
+
+.border:hover{
+    border: 1px solid transparent;
+}
+.navbar{
+    height: 92px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 30px 5px 30px;
+
+}
+
+.nav-logo{
+    height: 55.42px;
+    width: 180px;
+}
+
+.logo{
+    background-image: url("paytm_logo.png");
+    background-size: cover;
+    height: 55.42px;
+    width: 180px;
+
+
+}
+
+.large-text{
+    margin: 0px 0px 0px 0px;
+    padding: 12px;
+    height: 50.8px;
+}
+
+.text{
+    color: black;
+    padding: 17px 17px 17px 17px;
+    font: medium;
+    font-weight: bold;
+}
+
+.signin{
+
+    height: 38px;
+    width: 111.48px;
+    
+    background-color: #00BAF2;
+    
+    border-radius: 15px;
+    border: 2px black solid;
+    display: flex;
+    align-items: center;
+    
+}
+
+.signin-text{
+   
+    
+    padding: 2px 2px 2px 2px;
+    font-size: 15px;
+    height: 38px;
+    width: 111.48px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+.signintext{
+    
+    font-size: 15px;
+    height: 18.4px;
+    width: 49.18px;
+    
+
+}
+
+.signin:hover{
+
+    background-color: darkgray;
+}
+.text:hover{
+    box-shadow: 20px 20px 20px aqua;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+.box2{
+    background-color: #f2f2f2;
+    height: 48px;
+}
+.sentence{
+    padding:10px 500px 0px 500px;
+}
+
+.box3{
+    height: 678.84px;
+    width: 1500px;
+    margin: 0px 10px 0px 10px;
+   
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 5px 20px 5px 20px;
+    
+    
+   
+    
+}
+
+.image1{
+    height: 362.1px;
+    width: 650px;
+    display: inline;
+    padding-top: 80px;
+    
+}
+
+
+
+.images{
+    background-size: cover;
+    background-image: url("imagepaytm.png");
+    height: 83.2px;
+    width: 83.2px;
+    margin: 0px 0px 48px;
+    
+   
+    
+}
+
+.image2{
+    height: 503.22px;
+    width: 528px;
+}
+
+.imagesphone{
+    background-image: url("PAYTM PHONE PIC.webp");
+    background-size: cover;
+    height: 503.22px;
+    width: 528px;
+
+}
+
+.boldwala{
+    font-size: 54px;
+    width: 650px;
+    height: 130px;
+    font-weight: bolder;
+    
+}
+.lightwala{
+    width: 450px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.download-icon{
+    height: 45.6px;
+    width: 253.29px;
+    border: 4px black solid;
+    border-radius: 30%;
+}
+.downloadpaytm{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 12px 30px 8px 40px;
+}
+
+.download-icon:hover{
+    background-color: black;
+}
+.downloadpaytm:hover{
+    color: white;
+}
+
+
+.border3rowitems{
+    border: 2px white solid;
+    border-radius: 50%;
+}
+
+
+.OPTIONS-ROW{
+    background-color: #00BAF2;
+    height: 382px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+.text3row{
+    padding-top: 65px;
+    height: 40px;
+    color: white;
+}
+.text3rowwritten{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+
+.options{
+    height: 183px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.recharge{
+    background-color: #00BAF2;
+    height: 183px;
+    width: 152.57px;
+    padding: 16px 11px 16px 16px;
+    margin-top: 20px;
+    
+    
+    
+
+
+}
+
+
+
+
+.icontext{
+    color: white;
+    font-size: 25px;
+    height: 183px;
+    padding: 16px 11px 16px 16px;
+}
+
+.recharge:hover{
+    background: transparent;
+    background-color: lightsteelblue;
+
+}
+
+
+.OPTIONS-ROW4{
+    background-color: darkblue;
+    height: 382px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text4row{
+    padding-top: 65px;
+    height: 40px;
+    color: white;
+}
+.text4rowwritten{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+
+
+.options2{
+    height: 183px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.recharge2{
+    background-color: darkblue;
+    height: 183px;
+    width: 152.57px;
+    padding: 16px 11px 16px 16px;
+    margin-top: 20px;
+    
+    
+    
+
+
+}
+
+
+
+.icontext2{
+    color: white;
+    font-size: 25px;
+    height: 183px;
+    padding: 16px 11px 16px 16px;
+ 
+}
+
+.recharge2:hover{
+    background: transparent;
+    background-color: lightsteelblue;
+
+}
+
+
+/* 5throw */
+
+.row5{
+    height: 1700px;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding: 120px 0px 48px;
+
+    
+
+}
+.row5text{
+    height: 50px;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px 55px 35px;
+    padding-left: 50px;
+}
+
+.box{
+    width: 1170px;
+    height: 628px;
+    padding: 80px 50px 80px 115px;
+    background-color: #f2f2f2;
+    margin: 50px 50px 50px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column1{
+
+    width: 462px;
+    height: 368px;
+    display: block;
+    
+
+}
+.wallet{
+    
+    height: 77px;
+    width: 177px;
+    display: flex;
+    
+
+}
+
+.walletpic{
+    background-image: url("paytm wallet.png");
+    background-size: cover;
+    height: 77px;
+    width: 92px;
+    
+}
+.wallettext{
+    font-size: 20px;
+    font-weight: 100px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.boldtext{
+    
+    height: 92px;
+    color: black;
+    font-size: 48px;
+    font-weight: bolder;
+    padding-top: 30px;
+
+}
+
+.lighttext{
+    height: 106px;
+    padding: 80px 0px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+
+}
+
+
+
+.column2{
+    height: 503.44px;
+    width: 528px;
+    display: flex;
+}
+
+.paymentpic{
+    background-image: url("payment paytm photo.webp");
+    background-size: cover;
+    height: 503.44px;
+    width: 528px;
+    
+}
+
+
+.boxn{
+    width: 1170px;
+    height: 628px;
+    padding: 80px 50px 80px 115px;
+    background-color: #f2f2f2;
+    margin: 50px 50px 50px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column1of2{
+
+    width: 462px;
+    height: 368px;
+    display: block;
+    
+    
+
+}
+.money{
+    
+    height: 77px;
+    width: 177px;
+    display: flex;
+    
+
+}
+
+.moneypic{
+    background-image: url("money.png");
+    background-size: cover;
+    height: 77px;
+    width: 92px;
+    
+}
+.moneytext{
+    font-size: 20px;
+    font-weight: 100px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.boldtext2{
+    
+    height: 138px;
+    color: black;
+    font-size: 48px;
+    font-weight: bolder;
+    padding-top: 30px;
+
+}
+
+.lighttext2{
+    height: 158px;
+    padding: 80px 0px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+
+}
+.column2of2{
+    height: 503.44px;
+    width: 528px;
+    display: flex;
+}
+
+.paymentpic2{
+    background-image: url("dhai soo rupey.webp");
+    background-size: cover;
+    height: 503.44px;
+    width: 528px;
+    
+}
+
